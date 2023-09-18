@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1>&#9742; CONTACT US</h1>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="challenges.html">Challenges</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </header>
+
+      <div class="container-form">
+        <div class="container-flex">
+          <header class="post-header">
+            <center><h2>Hubungi Kami</h2></center>
+          </header>
+
+          <form class="form-container">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" />
+
+            <label for="email">Alamat Email</label>
+            <input type="text" id="email" name="email" />
+
+            <label for="kategori">Kategori</label>
+            <div class="input-radio-container">
+              <input type="radio" id="report" name="kategori" value="report" />
+              <label for="report">Laporan</label>
+              <input
+                type="radio"
+                id="feedback"
+                name="kategori"
+                value="feedback"
+              />
+              <label for="feedback">Masukan</label>
+            </div>
+
+            <label for="pesan">Pesan</label>
+            <textarea type="text" id="pesan" name="pesan"></textarea>
+
+            <div class="button">
+              <input
+                type="checkbox"
+                id="verification"
+                name="verification"
+                value="1"
+                required
+              />
+              <label for="verification">Konfirmasi Tindakan</label>
+            </div>
+
+            <div class="button">
+              <input type="submit" value="Kirim" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <p id="copyright" class="copyright text">
+          Copyright &copy; 2024 oleh Praktikum PABWE.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
